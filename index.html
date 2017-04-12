@@ -18,10 +18,10 @@
         
     </head>
     
-    <body ng-app="myCV">
-        <header ng-include='"templates/navbar.html"'></header>
-        <div style="float: right" ng-controller="commonCtrl" ng-include='"templates/translate.html"'></div>
-        <div ng-view ng-controller="commonCtrl">
+    <body data-ng-app="myCV">
+        <header data-ng-include='"templates/navbar.html"'></header>
+        <div style="float: right" data-ng-controller="commonCtrl" data-ng-include='"templates/translate.html"'></div>
+        <div data-ng-view data-ng-controller="commonCtrl">
 
         </div>
 
