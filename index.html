@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html class="no-js">
+    <head>
+
+        <title>Andrea Sucre González</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+                
+        <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.min.css">
+        <link rel="stylesheet"  type="text/css" href="css/fonts/font-awesome.css">
+        <link rel="stylesheet"  type="text/css" href="css/styles/styles.css">
+
+        <script src="js/jquery/jquery.min.js"></script>
+        <script src="js/tether.min.js"></script>
+        <script src="js/bootstrap/bootstrap.min.js"></script>
+
+        
+    </head>
+    
+    <body ng-app="myCV">
+        <header ng-include='"templates/navbar.html"'></header>
+        <div style="float: right" ng-controller="commonCtrl" ng-include='"templates/translate.html"'></div>
+        <div ng-view ng-controller="commonCtrl">
+
+        </div>
+
+        <script src="js/angular.min.js"></script>
+        <script src="js/angular-route.min.js"></script>
+        <script src="js/angular-translate.min.js"></script>
+        <script src="js/angular-translate.min.js"></script>
+        <script src="js/translations.js"></script>
+        <script src="js/commons.js"></script>
+
+    </body>
+</html>
