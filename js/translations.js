@@ -134,7 +134,8 @@ var translationsEN = {
   MASTER_TITLE: 'Tunel FET transistor modeling',
   MASTER_TITLE_DESCRIPTION: 'This work presents the development of an approximate model for the drain current of tunnel effect transistors (TFETs) operating under conditions of strong conduction. Also, the evaluation and development of different methodologies for the extraction of parameters from TFETs models is included. The methods studied can be classified into two groups: conventional threshold voltage extraction methods normally used in MOSFETs and proposed methods based on the present monomic model. Both the current approximation and the parameter extraction methods were verified by their application to experimental and simulated TFETs data.',
   AUGUST: 'August',
-  POETRY_SONG: 'Poetry of the song'
+  POETRY_SONG: 'Poetry of the song',
+  CONTACT_ME: 'CONTACT ME!'
 };
  
   
@@ -276,7 +277,8 @@ var translationsES= {
   MASTER_TITLE: 'Trabajo de Grado: Modelaje de transistores de efecto túnel',
   MASTER_TITLE_DESCRIPTION: 'Este trabajo de grado presenta el desarrollo de un modelo aproximado para la corriente de drenador de los Transistores de Efecto Túnel (TFETs) operando en condiciones de conducción fuerte. También se incluye la evaluación y desarrollo de distintas metodologías para la extracción de parámetros de modelos de TFETs. Los métodos estudiados pueden clasificarse en dos grupos: métodos convencionales de extracción del voltaje de umbral utilizados normalmente en MOSFETs; y métodos propuestos basados en el presente modelo monómico. Tanto la aproximación monómica de la corriente, como los métodos de extracción de parámetros fueron verificados mediante su aplicación a datos experimentales y simulados de TFETs. ',
   AUGUST: 'Agosto',
-  POETRY_SONG: 'Poesía de la canción'
+  POETRY_SONG: 'Poesía de la canción',
+  CONTACT_ME: 'CONTACTAME!'
 
 };
 

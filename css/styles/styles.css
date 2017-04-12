@@ -145,10 +145,36 @@ body{
     font-size: 25px;
 }
 
+
+
 .elementContent.subelement{
     font-size: 20px;
 }
+.titleContainer:hover, .titleContainerAwards:hover{
+    color: #f0f6c3;
+    background-color: #7c4988;
+}
+.elementContent.centerContentLeft:hover ,.elementContent.centerContent:hover{
+     color: #5E4A4E;
+ 
+}
 
+.elementContent.subelement:hover{
+    color: #7c4988;
+    font-weight: bold;
+  
+}
+
+.elementContent.subelement.textContainerAwards:hover,.elementContent.subelement.textContainerSkills:hover{
+    color: #5e4a4e;
+    font-weight: normal;
+  
+}
+.elementContent.subelement.textContainerAwards li:hover, .elementContent.subelement.textContainerSkills li:hover{
+    color: #7c4988;
+    font-weight: bold;
+  
+}
 .elementContent a{
     color: #5E4A4E;
     text-decoration: none;
